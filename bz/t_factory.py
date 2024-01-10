@@ -4,6 +4,10 @@ class Carfactory:
             return Benz()
         elif brand=="bm":
             return BMW()
+        elif brand=="BYD":
+            return BYD()
+        else:
+            print("error")
 
 class Benz:
     pass
@@ -12,3 +16,7 @@ class BMW:
 class BYD:
     pass
 factory=Carfactory()
+c1=factory.createCar("BYD")
+c2=factory.createCar("BMW")
+print(c1)
+print(c2)
