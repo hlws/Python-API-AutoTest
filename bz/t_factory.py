@@ -17,6 +17,6 @@ class BYD:
     pass
 factory=Carfactory()
 c1=factory.createCar("BYD")
-c2=factory.createCar("BMW")
+c2=factory.createCar("bm")
 print(c1)
 print(c2)
