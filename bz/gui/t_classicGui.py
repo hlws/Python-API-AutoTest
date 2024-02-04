@@ -24,7 +24,7 @@ class Application(Frame):
         messagebox.showinfo("send flower","999")
 if __name__=='__main__':
     root=Tk()
-    root.geometry("500x500+200+200")
+    root.geometry("400x100+200+300")
     root.title("one classic gui windows")
     app=Application(master=root)
     root.mainloop()
